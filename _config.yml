@@ -385,5 +385,5 @@ gitter:
 ##
 deploy:
   type: git
-  repo: https://github.com/wenhao1991/wenhao1991.github.io # or https://gitee.com/<yourAccount>/<repo>
+  repo: https://oauth2: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@github.com/wenhao1991/wenhao1991.github.io # or https://gitee.com/<yourAccount>/<repo>
   branch: gh-pages
