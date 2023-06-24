@@ -40,10 +40,10 @@ permalink_defaults:
 # Custom Setting Start
 
 # Site settings
-SEOTitle: either thin | or die
-email: hexo-theme-livemylife@gmail.com
-description: "It's an IT blog..."
-keyword: "v-vincen,v-vincen,livemylife,IT  blog,Blog"
+SEOTitle: wenjing's blog
+email: cwhsjtugg@gmail.com
+# description: "It's an IT blog..."
+# keyword: "v-vincen,v-vincen,livemylife,IT  blog,Blog"
 header-img: img/header_img/newhome_bg.jpg
 archives-img: img/header_img/archive_bg2.jpg
 
@@ -81,8 +81,8 @@ widgets:
 # - visitor   # busuanzi: https://busuanzi.ibruce.info/
 - short-about
 - featured-tags
-- category
 - recent-posts
+- category
 - archive
 # - friends-blog
 
@@ -122,11 +122,11 @@ featured-condition-size: 0    # A tag will be featured if the size of it is more
 ## Doc:https://github.com/gitalk/gitalk/blob/master/readme-cn.md
 ##
 gitalk:
-  owner:                          # 'GitHub repo owner'
-  admin:                          # 'GitHub repo'
-  repo:                           # ['GitHub repo owner and collaborators, only these guys can initialize github issues']
-  clientID:                       # 'GitHub Application Client ID'
-  clientSecret:                   # 'GitHub Application Client Secret'
+  owner:  wenhao1991                        # 'GitHub repo owner'
+  admin:  [wenhao1991]                        # ['GitHub repo owner and collaborators, only these guys can initialize github issues']
+  repo:   blog_comments                        # 'GitHub repo'
+  clientID:       fbeb16b9269d75d20a03                    # 'GitHub Application Client ID'
+  clientSecret:   9e638eb011d53f5956ad72fb465e14a2810597a7                # 'GitHub Application Client Secret'
   perPage: 10                     # Pagination size, with maximum 100.
   pagerDirection: last            # Comment sorting direction, available values are last and first.
   createIssueManually: false      # By default, Gitalk will create a corresponding github issue for your every single page automatically when the logined user is belong to the admin users. You can create it manually by setting this option to true
